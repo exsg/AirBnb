@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "b8bd0202-d834-462d-a5af-b2ea80d8719b",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Home page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/AirBnB/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"AirBnB",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ping  endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/AirBnB/api/test/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"AirBnB",
+						"api",
+						"test",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test find pong",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/AirBnB/api/test/pong",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"AirBnB",
+						"api",
+						"test",
+						"pong"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
